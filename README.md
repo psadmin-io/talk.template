@@ -14,25 +14,28 @@ python setup.py
 
 # Getting started
 After running the setup, follow these steps to get started.
-1. Find and update markdown files in `/slides`.
-    * `class: center, example`
-        * Sets style
-    * `---`
-        * Changes slide
-    * `???`
-        * Adds speaker notes
-1. Update `/index.html` with markdown files to organize slides.
-    ```
-    var slideshow = remark.create(
-      {sourceUrls: [
-        // update slides here           
-        'slides/intro.md',
-        'slides/about.md',
-        'slides/close.md',
-      ]}
-    );
-    ```
-1. [Serve talk locally](#serve-locally) or publish to GitHub Pages.
+
+Find and update markdown files in `/slides`.
+* `class: center, example`
+    * Sets style
+* `---`
+    * Changes slide
+* `???`
+    * Adds speaker notes
+    
+Update `/index.html` with markdown files to organize slides.
+```
+var slideshow = remark.create(
+  {sourceUrls: [
+    // update slides here           
+    'slides/intro.md',
+    'slides/about.md',
+    'slides/close.md',
+  ]}
+);
+```
+    
+[Serve talk locally](#serve-locally) or publish to [GitHub Pages](#github-pages).
 
 # Serve locally
 If you are using separate markdown files, they need to be served from a web server. 
@@ -49,6 +52,9 @@ cd talk.NEW
 python3 -m http.server 8003
 python2 -m SimpleHTTPServer 8002
 ```
+
+# GitHub Pages
+We are using a custom domain to serve up our GitHub Pages. The url will be `wiki.psadmin.io/yourreponame`. By default it will publish the `gh-pages` branch. You can override this by going to your GitHub repo's `Settings > GitHub Pages > Source` and selecting a different branch. For talks repos we should set this to `master` or change the repo's default branch to be `gh-pages`.
 
 # Change branch and update
 Use these steps to change a template branch or get updates to `remark.js`, css style, example slides, etc.

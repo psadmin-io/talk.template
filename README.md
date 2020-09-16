@@ -48,7 +48,7 @@ Here are a few keyboard shortcuts for presenting.
 # Serve locally
 If you are using separate markdown files, they need to be served from a web server. 
 
-Change to the talk's root directory and use the `serve.py` helper script to run a simple web server on port `8000`.
+Change to the talk's root directory and use the `serve.py` helper script to run a simple web server at `localhost:8000`.
 ```
 cd talk.NEW
 python talk.template/serve.py

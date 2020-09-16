@@ -1,5 +1,5 @@
 # talk.template
-Template for talks using remark
+Template for talks using [remark](https://github.com/gnab/remark)
 
 # Setup talk from template
 ```
@@ -8,7 +8,7 @@ cd talk.NEW
 git submodule add https://github.com/psadmin-io/talk.template.git
 # set your template branch
 git config --file=.gitmodules submodule.talk.template.branch master
-git submodule update --init --recursive
+git submodule update --init --recursive --remote
 python setup.py
 ```
 
@@ -34,5 +34,21 @@ Use these steps to change a template branch or get updates to `remark.js`, css s
 ```
 cd talk.NEW
 git config --file=.gitmodules submodule.talk.template.branch NEW-BRANCH
-git submodule update --init --recursive
+git submodule update --init --recursive  --remote
+```
+
+# Push template changes upstream
+Sometimes you may want to make changes in the template submodule and push upstream. 
+```
+cd talk.NEW/talk.template
+git checkout -b feature/change
+# make your changes
+git commit -a -m "my change"
+git push origin feature/change
+```
+Do a GitHub PR into `master` or [change your talks.template branch](#change-branch-and-update) as needed. Then update and commit so your talk points to your newly published changes directly.
+```
+cd talk.NEW
+git submodule update --init --recursive --remote
+git commit -a -m "updating template"
 ```

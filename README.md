@@ -12,6 +12,28 @@ git submodule update --init --recursive --remote
 python setup.py
 ```
 
+# Getting started
+After running the setup, follow these steps to get started.
+1. Find and update markdown files in `/slides`.
+    * `class: center, example`
+        * Sets style
+    * `---`
+        * Changes slide
+    * `???`
+        * Adds speaker notes
+1. Update `/index.html` with markdown files to organize slides.
+    ```
+    var slideshow = remark.create(
+      {sourceUrls: [
+        // update slides here           
+        'slides/intro.md',
+        'slides/about.md',
+        'slides/close.md',
+      ]}
+    );
+    ````
+1. [Serve talk locally](#serve-locally) or publish to GitHub Pages.
+
 # Serve locally
 If you are using separate markdown files, they need to be served from a web server. 
 

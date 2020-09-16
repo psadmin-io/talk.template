@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata/Inconsolata-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+  }
+  @font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Regular.ttf') format('truetype');
+  }
+  @font-face {
+      font-family: 'Interstate';
+      src: url('Interstate/interstate-black.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+body {background-color: white;}
+
+.remark-code, .remark-inline-code {
+    border: 2px solid #9d9d9d;
+    border-radius: 4px;
+    border-spacing: 2px, 2px, 2px, 2px;
+    padding-bottom: 2px;
+    font-family: 'Inconsolata', monaco, monospace;
+    font-size: 35px;
+    color: #595959;
+    font-style: normal;
+    background: #fcfcfc;
+}
+
+.remark-slide-content {
+    color: #959B99;
+    font-family: 'Lato', sans-serif;    
+    background-color: white;
+}
+  
+/* .remark-slide-content:not(.cover) h1:not(.section_title) {
+    border-bottom: 0px solid #222;
+} */
+
+.title {
+    background-color: #1392FE !important;
+    padding: 0;
+}
+  
+.title h1 {
+    color: #959B99;
+    font-family: 'Lato';
+    font-size: 110px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    background-color: white;
+    padding-top: 20%;
+    padding-bottom: 10%; 
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .subsection {
+    background-color: #1392FE !important;
+  }
+  
+  .subsection h1 {
+    color: white ;
+    font-size: 90px;
+    font-variant: normal;
+  }
+  
+  .subsection a {
+    color: white;
+  }
+  .black {
+    background-color: #191919 !important;
+  }
+  
+  .black h1 {
+    color: #1392FE ;
+    font-size: 90px;
+    font-variant: normal;
+  }
+  
+  .white {
+    background-color: white !important;
+  }
+  
+  .gray {
+    background-color: #6F7474 !important;
+  }
+  
+  .gray h1 {
+    color: white ;
+    font-size: 90px;
+    font-variant: normal;
+  }
+  
+  h1 {
+    color: #1392FE ;
+    font-family: 'Interstate';
+    font-size: 50px;
+    font-weight: 900;
+  }
+  
+  h2 {
+    color: #F37F0A ;
+    font-family: 'Interstate';
+    font-size: 40px;
+    font-weight: 900;
+    border-bottom: none;
+  }

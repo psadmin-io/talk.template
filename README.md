@@ -31,7 +31,7 @@ After running the setup, follow these steps to get started.
         'slides/close.md',
       ]}
     );
-    ````
+    ```
 1. [Serve talk locally](#serve-locally) or publish to GitHub Pages.
 
 # Serve locally

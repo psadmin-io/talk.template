@@ -37,6 +37,12 @@ var slideshow = remark.create(
     
 [Serve talk locally](#serve-locally) or publish to [GitHub Pages](#github-pages).
 
+# Presenting
+Here are a few keyboard shortcuts for presenting.
+
+* `C` - Clones the current presentation into a new browser window
+* `P` - Toggles between presenter mode
+
 # Serve locally
 If you are using separate markdown files, they need to be served from a web server. 
 

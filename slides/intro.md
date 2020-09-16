@@ -27,24 +27,11 @@ Notes go here
 Notes go here
 
 ---
-class: center, middle, title
-# Title
----
-class: center, middle, black
-# Black
----
-class: center, middle, white
-# White
----
-class: center, middle, gray
-# Gray
----
-# Bullets
-* Item
-* Item
-* Item
----
-# Numbers
-1. Item
-1. Item
-1. Item
+
+# About Us
+
+Talk about who we are!
+
+???
+
+Notes go here

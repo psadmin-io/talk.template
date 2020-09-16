@@ -10,6 +10,8 @@ git submodule add https://github.com/psadmin-io/talk.template.git
 git config --file=.gitmodules submodule.talk.template.branch master
 git submodule update --init --recursive --remote
 python talk.template/setup.py
+git add --all
+git commit -m "Init from template"
 ```
 
 # Getting started

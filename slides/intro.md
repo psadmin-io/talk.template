@@ -19,7 +19,7 @@ Notes go here
 # Agenda
 
 1. Introduction
-1. About us
+1. Talks
 1. Questions
 
 ???
@@ -28,10 +28,13 @@ Notes go here
 
 ---
 
-# About Us
+# About psadmin.io
 
-Talk about who we are!
+Providing *PeopleSoft* and *Oracle Cloud* services with a knowledge sharing and training first focus.
 
-???
-
-Notes go here
+* Services
+* Training
+* Conference
+* Blog
+* Podcast
+* Community

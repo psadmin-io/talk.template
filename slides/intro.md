@@ -4,7 +4,7 @@ class: center, middle
 
 Your Name
 
-![psadmin.io](images/psadmin_io.png)
+![:img psadmin.io, 50%](images/psadmin_io.png)
 
 Session ID: **12345**
 

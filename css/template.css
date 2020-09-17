@@ -10,7 +10,7 @@
   }
   @font-face {
       font-family: 'Interstate';
-      src: url('Interstate/interstate-black.ttf') format('truetype');
+      src: url('Interstate/Interstate-bold.ttf') format('truetype');
       font-weight: normal;
       font-style: normal;
   }
@@ -83,6 +83,12 @@ body {background-color: white;}
   
   .white {
     background-color: white !important;
+  }
+
+  .white h1 {
+    color: #1392FE ;
+    font-size: 90px;
+    font-variant: normal;
   }
   
   .gray {

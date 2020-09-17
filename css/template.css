@@ -90,6 +90,16 @@ body {background-color: white;}
     font-size: 90px;
     font-variant: normal;
   }
+
+  .blue {
+    background-color:#1392FE !important;
+  }
+
+  .blue h1 {
+    color: white ;
+    font-size: 90px;
+    font-variant: normal;
+  }
   
   .gray {
     background-color: #6F7474 !important;

@@ -33,8 +33,29 @@ Notes go here
 Providing *PeopleSoft* and *Oracle Cloud* services with a knowledge sharing and training first focus.
 
 * Services
-* Training
 * Conference
+* Training
 * Blog
 * Podcast
 * Community
+
+---
+
+# Dan Iverson
+
+* About dan
+
+---
+
+# Kyle Benson
+
+* PeopleSoft Architect
+* Oracle Cloud Infrastructure Architect
+* [Oracle ACE](https://psadmin.io/ace-kyle)
+* [Oracle Certified](https://www.youracclaim.com/users/kyle-benson/badges)
+* 13+ years using PeopleSoft and Oracle
+
+---
+class: center, middle, no-padding
+
+.ace-image[![ACE Program](images/ace.png)]

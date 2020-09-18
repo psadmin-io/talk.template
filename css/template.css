@@ -59,71 +59,79 @@ body {background-color: white;}
     padding-left: 10%;
   }
 
-  .subsection {
-    background-color: #1392FE !important;
-  }
-  
-  .subsection h1 {
-    color: white ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  .subsection a {
-    color: white;
-  }
-  .black {
-    background-color: #191919 !important;
-  }
-  
-  .black h1 {
-    color: #1392FE ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  .white {
-    background-color: white !important;
-  }
+.subsection {
+  background-color: #1392FE !important;
+}
 
-  .white h1 {
-    color: #1392FE ;
-    font-size: 90px;
-    font-variant: normal;
-  }
+.subsection h1 {
+  color: white ;
+  font-size: 90px;
+  font-variant: normal;
+}
 
-  .blue {
-    background-color:#1392FE !important;
-  }
+.subsection a {
+  color: white;
+}
+.black {
+  background-color: #191919 !important;
+}
 
-  .blue h1 {
-    color: white ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  .gray {
-    background-color: #6F7474 !important;
-  }
-  
-  .gray h1 {
-    color: white ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  h1 {
-    color: #1392FE ;
-    font-family: 'Interstate';
-    font-size: 50px;
-    font-weight: 900;
-    border: none;
-  }
-  
-  h2 {
-    color: #F37F0A ;
-    font-family: 'Interstate';
-    font-size: 40px;
-    font-weight: 900;
-    border: none;
-  }
+.black h1 {
+  color: #1392FE ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+.white {
+  background-color: white !important;
+}
+
+.white h1 {
+  color: #1392FE ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+.blue {
+  background-color:#1392FE !important;
+}
+
+.blue h1 {
+  color: white ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+.gray {
+  background-color: #6F7474 !important;
+}
+
+.gray h1 {
+  color: white ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+h1 {
+  color: #1392FE ;
+  font-family: 'Interstate';
+  font-size: 50px;
+  font-weight: 900;
+  border: none;
+}
+
+h2 {
+  color: #F37F0A ;
+  font-family: 'Interstate';
+  font-size: 40px;
+  font-weight: 900;
+  border: none;
+}
+
+.ace-image img {
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0;
+}

@@ -55,84 +55,108 @@ blockquote {
 }
   
 .title h1 {
-    color: #959B99;
-    font-family: 'Lato';
-    font-size: 110px;
-    font-weight: 400;
-    font-style: normal;
-    font-variant: small-caps;
-    background-color: white;
-    padding-top: 20%;
-    padding-bottom: 10%; 
-    padding-right: 10%;
-    padding-left: 10%;
-  }
+  color: #959B99;
+  font-family: 'Lato';
+  font-size: 55px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: small-caps;
+  background-color: white;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
 
-  .subsection {
-    background-color: #1392FE !important;
-  }
-  
-  .subsection h1 {
-    color: white ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  .subsection a {
-    color: white;
-  }
-  .black {
-    background-color: #191919 !important;
-  }
-  
-  .black h1 {
-    color: #1392FE ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  .white {
-    background-color: white !important;
-  }
+.title p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+}
 
-  .white h1 {
-    color: #1392FE ;
-    font-size: 90px;
-    font-variant: normal;
-  }
+.title a {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+}
 
-  .blue {
-    background-color:#1392FE !important;
-  }
+.title img {
+  width: 200px
+}
 
-  .blue h1 {
-    color: white ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  .gray {
-    background-color: #6F7474 !important;
-  }
-  
-  .gray h1 {
-    color: white ;
-    font-size: 90px;
-    font-variant: normal;
-  }
-  
-  h1 {
-    color: #1392FE ;
-    font-family: 'Interstate';
-    font-size: 50px;
-    font-weight: 900;
-    border: none;
-  }
-  
-  h2 {
-    color: #F37F0A ;
-    font-family: 'Interstate';
-    font-size: 40px;
-    font-weight: 900;
-    border: none;
-  }
+.subsection {
+  background-color: #1392FE !important;
+}
+
+.subsection h1 {
+  color: white ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+.subsection a {
+  color: white;
+}
+.black {
+  background-color: #191919 !important;
+}
+
+.black h1 {
+  color: #1392FE ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+.white {
+  background-color: white !important;
+}
+
+.white h1 {
+  color: #1392FE ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+.blue {
+  background-color:#1392FE !important;
+}
+
+.blue h1 {
+  color: white ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+.gray {
+  background-color: #6F7474 !important;
+}
+
+.gray h1 {
+  color: white ;
+  font-size: 90px;
+  font-variant: normal;
+}
+
+h1 {
+  color: #1392FE ;
+  font-family: 'Interstate';
+  font-size: 50px;
+  font-weight: 900;
+  border: none;
+}
+
+h2 {
+  color: #F37F0A ;
+  font-family: 'Interstate';
+  font-size: 40px;
+  font-weight: 900;
+  border: none;
+}
+
+.ace-image img {
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0;
+}
